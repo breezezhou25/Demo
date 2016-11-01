@@ -6,6 +6,7 @@ import java.util.Date;
 public class First {
 	class Dog {
 		public Dog(){
+			System.out.println("I make some change here.");
 			System.out.println(" i make some change on master too.");
 		}
 		public void print (){
@@ -19,7 +20,7 @@ public class First {
 		for(int i = 0 ; i<5 ; i++){
 			System.out.println("lalala");
 			Dog dog = null;
-			//coment here
+			//comment here
 			
 		}
 		SimpleDateFormat sdf = new SimpleDateFormat();
