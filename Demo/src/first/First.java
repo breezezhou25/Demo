@@ -1,5 +1,8 @@
 package first;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class First {
 	class Dog {
 		public Dog(){
@@ -19,9 +22,15 @@ public class First {
 			//coment here
 			
 		}
-		
+		SimpleDateFormat sdf = new SimpleDateFormat();
+		class Dog2 {
+			public void print (){
+				System.out.println("dudulu");
+				System.out.println(new Date());
+				
+			}
+		}
 
 	}
 
 }
-
