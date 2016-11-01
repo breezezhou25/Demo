@@ -7,6 +7,7 @@ public class First {
 	class Dog {
 		public Dog(){
 			System.out.println("I make some change here.");
+			System.out.println(" i make some change on master too.");
 		}
 		public void print (){
 			System.out.println("dudulu");
