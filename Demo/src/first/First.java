@@ -7,6 +7,12 @@ public class First {
 		System.out.println("This is the first line");
 		for(int i = 0 ; i<5 ; i++){
 			System.out.println("lalala");
+			
+		}
+		class Dog {
+			public void print (){
+				System.out.println("dudulu");
+			}
 		}
 
 	}
